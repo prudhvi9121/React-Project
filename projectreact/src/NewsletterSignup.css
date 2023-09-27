@@ -1,0 +1,48 @@
+/* NewsletterSignup.css */
+
+.newsletter-signup {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .section-description {
+    font-size: 16px;
+    color: #666; /* Gray text color */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff5733; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #ff8656; /* Lighter orange on hover */
+  }
+  
